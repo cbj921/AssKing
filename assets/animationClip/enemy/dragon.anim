@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "dragon",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.75,
+  "sample": 8,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "523bb1cf-3273-41b9-b446-75aca2d76e55"
+            }
+          },
+          {
+            "frame": 0.125,
+            "value": {
+              "__uuid__": "6bf97d02-701d-45fb-a15c-7f8a3fb17084"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "a277b192-2db2-4383-8d20-be454cfbbed5"
+            }
+          },
+          {
+            "frame": 0.375,
+            "value": {
+              "__uuid__": "e2b9ede3-fa0a-46e5-ada6-8f05dc8dd208"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "8eb7e8c4-4be8-48c1-ad34-ead8966be267"
+            }
+          },
+          {
+            "frame": 0.625,
+            "value": {
+              "__uuid__": "523bb1cf-3273-41b9-b446-75aca2d76e55"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}
