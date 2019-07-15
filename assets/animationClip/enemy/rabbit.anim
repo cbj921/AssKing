@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "rabbit",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5,
+  "sample": 8,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "68677eef-d91a-4ec3-b091-bb41de7078ab"
+            }
+          },
+          {
+            "frame": 0.125,
+            "value": {
+              "__uuid__": "0ff11ae3-4392-46cb-89a1-7f9493126ff8"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "a4f4ee38-8ab8-410c-b60b-47eb18750e57"
+            }
+          },
+          {
+            "frame": 0.375,
+            "value": {
+              "__uuid__": "b7d57227-6d41-4633-b1fa-c7be68f742bb"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}
