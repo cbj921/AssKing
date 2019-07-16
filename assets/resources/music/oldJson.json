@@ -1,0 +1,23 @@
+{
+    "1":{
+       "type":"dragon",
+       "time":10
+   },
+    "2":{
+        "type":"dragon",
+        "time":20
+    },
+    "3":{
+        "type":"rabbit",
+        "time":30
+    },
+    "4":{
+        "type":"rabbit",
+        "time":40
+    },
+    "5":{
+        "type":"ghost",
+        "time":50
+    },
+    "length":5
+}

@@ -31,7 +31,6 @@ cc.Class({
                 cc.director.emit('clickMiss',other.node);
             }
             this._jumpFlag = false;
-            cc.log(other.node.position)
         }
     },
     

@@ -55,7 +55,7 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 1083,
+      "x": 1070,
       "y": 342,
       "z": 0
     },
@@ -135,6 +135,16 @@
     },
     "_enabled": true,
     "moveForwardDuration": 4,
+    "startPos": {
+      "__type__": "cc.Vec2",
+      "x": 1070,
+      "y": 342
+    },
+    "endPos": {
+      "__type__": "cc.Vec2",
+      "x": -1100,
+      "y": 342
+    },
     "destroySound": {
       "__uuid__": "2ef4168d-c31f-48dd-88b3-aeab39340fbe"
     },
@@ -169,7 +179,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "femKI93lpEErRfDf2aO88L",
+    "fileId": "1a831b1RpBn481hU/SiFwc",
     "sync": false
   }
 ]

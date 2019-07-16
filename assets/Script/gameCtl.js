@@ -17,6 +17,8 @@ cc.Class({
             manager.enabled = true;
         }
     },
+   
+    update(){
+    },
 
- 
 });

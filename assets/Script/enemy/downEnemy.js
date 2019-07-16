@@ -5,6 +5,8 @@ cc.Class({
 
     properties: {
         moveForwardDuration:1,
+        startPos:cc.Vec2,
+        endPos:cc.Vec2,
         destroySound:{
             default:null,
             type:cc.AudioClip,
@@ -12,12 +14,12 @@ cc.Class({
     },
 
     moveAction(){
-        this.moveForward = cc.moveTo(this.moveForwardDuration,cc.v2(-1100,-30));
+        this.moveForward = cc.moveTo(this.moveForwardDuration,this.endPos);
         this.node.runAction(this.moveForward);
     },
 
     onLoad () {
-        this.node.position = cc.v2(1077,-30); // 初始位置 
+        this.node.position = this.startPos; // 初始位置 
         this.moveAction();
     },
 
