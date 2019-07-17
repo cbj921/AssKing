@@ -20,15 +20,15 @@ cc.Class({
             let distance = Math.abs(Math.floor(otherPosition.x - self.node.x));
             if(distance<this.perfectDistance){
                 cc.log('perfect');
-                cc.director.emit('clickPerfect',other.node);
-                other.node.destroy();
+                other.node.emit('clickPerfect'); // 向碰撞节点发送，是用来销毁节点
+                cc.director.emit('clickPerfect'); // 向全局发送，是用来计数的，统计评分
             }else if(distance<this.greatDistance){
                 cc.log('great');
-                cc.director.emit('clickGreat',other.node);
-                other.node.destroy();
+                other.node.emit('clickGreat');
+                cc.director.emit('clickGreat');
             }else {
                 cc.log('miss');
-                cc.director.emit('clickMiss',other.node);
+                cc.director.emit('clickMiss');  // 向 播放处理评分的脚本发送，播放点击失败的miss
             }
             this._jumpFlag = false;
         }
